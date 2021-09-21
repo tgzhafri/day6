@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-icons: #929292;
+    --clr-text: #fff;
+    --clr-bg-dark: #242424;
+    --clr-bg-light: #3b3b3b;
+    --clr-accent: #ff7600;
+}
+
+body {
+    margin: 1em;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+
+img {
+    width: 100%;
+}
+
+.mailText {
+    transition:all 1s cubic-bezier(1, 0.05, 0.6, 1.58);
+}
+
+
+.mailText:hover {
+    font-size:60px;
+}
+
+.food-list {
+    margin-bottom: 15px;
+}
+
+.food-list h1 {
+    font-size: 4.5vw;
+    margin-bottom: 10px;
+}
+
+.food-list p {
+    text-align: center;
+}
+
+
+#chef-container {
+    text-align: center;
+}
+
+#chef-container h3 {
+    margin: 20px 0;
+}
+
+
+@media (min-width:450px) {
+    #food-container {
+        max-width: 800px;
+        display: grid;
+        /* flex-wrap: wrap; */
+        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
+        background-color: red;
+    }
+    .food-list {
+        margin: 10px;
+    }
+    .food-list h1 {
+        font-size: 2vw;
+    }
+} 
+
+
+
+
+
+
+
+
+
