@@ -45,6 +45,7 @@ header ul li {
     background-image: url(./images/ny.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -163,11 +164,13 @@ header ul li {
     gap: 1rem;
 
 }
+#msg-box {
+    position: relative;
+}
 .send-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 0;
 }
 .fa {
     padding-right: 10px;
